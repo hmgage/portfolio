@@ -8,15 +8,9 @@ body {
     margin: 0 auto;
     position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
- /*
-body::after {
-    content: '';
-    display: block;
-    height: 10px;
-    background-color: blueviolet;
-}
-*/
 
 img {
     width: 100%;
@@ -44,7 +38,6 @@ main {
     width: 100%; 
     max-width: 900px;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .title {
     font-size: 2.5rem;
@@ -105,7 +98,7 @@ button {
 }
 
 .addl-info {
-    display: none;
+    display: contents;
 }
 
 /* ---contact page ----*/
@@ -129,11 +122,9 @@ footer {
     text-align: center;
     margin: 0;
     padding: 0;
-    position: absolute;
-    bottom: 0;
+    align-self: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: aqua;
 }
