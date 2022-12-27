@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+}
+ /*
+body::after {
+    content: '';
+    display: block;
+    height: 10px;
+    background-color: blueviolet;
+}
+*/
+
+img {
+    width: 100%;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+.section-heading { 
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%; 
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.title {
+    font-size: 2.5rem;
+    margin-left: 15%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 1em;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+#about-me {
+    display: flex;
+    padding: 3rem 0 1.5rem;
+}
+
+.about-me-content {
+    width: 50%;
+}
+
+.about-me-img {
+    width: 50%;
+}
+
+#projects {
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+button {
+    width: fit-content;
+}
+
+.addl-info {
+    display: none;
+}
+
+/* ---contact page ----*/
+
+.icon {
+    width: 3em;
+    height: 3em;
+    margin: 0.3em;
+}
+
+.citation{
+    padding: 0;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+/* -- footer --*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+}
