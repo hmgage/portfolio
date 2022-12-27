@@ -8,7 +8,7 @@ const closeButton = document.getElementsByClassName('close-btn');
 // console.log("🚀 ~ file: script.js:8 ~ closeButton", closeButton)
 
 const showInfo = function (index) {
-    addlInfo[index].style.display = 'block';
+    addlInfo[index].style.display = 'flex';
     infoButton[index].style.display = 'none';
 }
 

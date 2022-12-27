@@ -99,6 +99,8 @@ button {
 
 .addl-info {
     display: none;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ---contact page ----*/
